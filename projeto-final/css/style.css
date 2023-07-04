@@ -1,0 +1,38 @@
+body, p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+
+.conteudo {
+   width: 70%;
+   display: inline-block;
+   height: 700px;
+   background-image: url(".projeto-final/imagens/background3.jpg");
+}
+
+.sidebar {
+  width: 30%;
+  display: inline-block;
+  height: 700px;
+}
+
+section {
+  width: 100%;
+  display: flex;
+}
+
+.teste {
+  background: url(../imagens/background3.jpg);
+  background-repeat: no-repeat;
+  height: 2000px;
+  width: 100%
+}
+
+
