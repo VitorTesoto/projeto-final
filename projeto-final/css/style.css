@@ -17,6 +17,10 @@ header {
   width: 50%;
 }
 
+.block {
+  display: inline-block;
+}
+
 
 .logo {
   height: 90%;
@@ -24,7 +28,7 @@ header {
   padding-left: 60px;
 }
 
-.txt {
+.txt-logo {
   position: absolute;
   font-family: 'VALORANT', sans-serif;
   padding-left: 20px;
@@ -36,30 +40,96 @@ header {
 .txt-menu {
   color:white;
   font-family: 'Deviant Art 2000', sans-serif;
-  word-spacing: 50px;
+  word-spacing: 60px;
   padding-left: 280px;
   padding-top: 20px;
 }
 
-.teste {
-  text-align: right;
+.txt-conteudo {
+  color:white;
+  font-family: 'Catrinity', sans-serif;
+  display: inline-block;
+  width: 38%;
+  padding-left: 99px;
+  margin-top: 50px;
+  font-size: 23px;
 }
+
+.titulo {
+  font-family: 'Deviant Art 2000', sans-serif;
+  font-size: 25px;
+  color: #ff5152;
+  display: inline-block;
+  padding-top: 40px;
+  margin-bottom: 7px;
+  font-size: 40px;
+}
+
+.button {
+  background-color: #ff5152;
+  color: white;
+  width: 250px;
+  height: 70px;
+  font-family: 'Deviant Art 2000', sans-serif !important;
+  border: none;
+  margin-top: 25px;
+  font-size: 20px !important; 
+  border-radius: 5px;
+}
+
 
 .conteudo {
    width: 75%;
    display: inline-block;
+   margin: 0px;
 }
 
 .img1 {
-  padding-top: 90px;
-  padding-left: 320px;
+  position: absolute;
 }
 
 .sidebar {
   width: 25%;
   display: inline-block;
-  background: #FFFF00;
+ 
 }
+
+.card-classes {
+  border: 3px solid #ff5152;
+  background-image: url(../imagens/bg-card.png);
+  background-position: 48% 5%;
+  background-size: 3000px;
+  width: 85%;
+  height: 86%;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 5px;
+  justify-content: center;
+}
+
+.txt-sidebar {
+  font-family: 'Deviant Art 2000', sans-serif;
+  font-size: 29px;
+  color:white;
+  padding-left: 37px;
+  padding-top: 33px;
+}
+
+.logo-classes {
+  width: 15%;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+
+.txt-classes {
+  font-size: 22px;
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  font-family: 'Deviant Art 2000', sans-serif;
+}
+
 
 section {
   width: 100%;
