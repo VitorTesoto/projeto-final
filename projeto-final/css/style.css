@@ -15,6 +15,7 @@ header {
 .container {
   display: block;
   width: 50%;
+  background-color:#363636 ;
 }
 
 .container2 {
@@ -27,6 +28,10 @@ header {
   display: inline-block;
 }
 
+.link {
+  text-decoration: none;
+  color: inherit;
+}
 
 .logo {
   height: 90%;
@@ -49,13 +54,14 @@ header {
   word-spacing: 60px;
   padding-left: 280px;
   padding-top: 20px;
+  width: 900px;
 }
 
 .txt-conteudo {
   color:white;
   font-family: 'Catrinity', sans-serif;
   display: inline-block;
-  width: 38%;
+  width: 500px;
   padding-left: 99px;
   margin-top: 50px;
   font-size: 23px;
@@ -185,6 +191,7 @@ img, p {
 section { 
   width: 100% !important;
   display: flex !important;
+  flex-wrap: wrap;  
 }
 
 .config-card {
@@ -205,4 +212,35 @@ section {
 	background: url(../imagens/background4.jpg) no-repeat;
 	background-size: cover; 
   filter:brightness(50%);
+}
+
+@media (max-width: 768px) {
+
+  .conteudo {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .txt-menu {
+    padding-left: 100px;
+    word-spacing: 22px;
+  }
+
+  .logo {
+    height: 90%;
+    padding-top: 6px;
+    padding-left: 20px;
+  }
+
+  .news {
+    height: 100%
+  }
+
+  .abas {
+    width: 100%;
+    margin-top: 50px;
+  }
 }
