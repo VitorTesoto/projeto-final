@@ -15,7 +15,6 @@ header {
 .container {
   display: block;
   width: 50%;
-  background-color:#363636 ;
 }
 
 .container2 {
@@ -75,6 +74,7 @@ header {
   padding-top: 40px;
   margin-bottom: 7px;
   font-size: 40px;
+  width: 500px;
 }
 
 .button {
@@ -128,15 +128,15 @@ header {
 }
 
 .logo-classes {
-  margin-top: 40px;
-  width: 15%;
+  margin-top: 70px;
+  width: 17%;
   padding-left: 10px;
 }
 
 .txt-classes {
-  font-size: 14px;
+  font-size: 20px;
   margin-left: 3%;
-  margin-top: 52px;
+  margin-top: 80px;
   color: white;
   font-family: 'Druk Wide Bold', sans-serif;
   align-items:flex-end
@@ -214,8 +214,30 @@ section {
   filter:brightness(50%);
 }
 
+footer {
+  padding-top: 20px;
+  height: 70px;
+  background-color:#363636 ;
+  justify-content: center;
+}
+
+.txt-footer {
+  font-family: 'Deviant Art 2000', sans-serif;
+  text-align: center;
+  color: gray;
+  width: 100%;
+}
+
 @media (max-width: 768px) {
 
+  header {
+    width: 100%;
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
   .conteudo {
     width: 100%;
   }
@@ -235,12 +257,16 @@ section {
     padding-left: 20px;
   }
 
+  .card-classes {
+    margin-left: 50px;
+  }
+
   .news {
     height: 100%
   }
 
   .abas {
     width: 100%;
-    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
